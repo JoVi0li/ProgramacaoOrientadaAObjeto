@@ -6,6 +6,17 @@ namespace AulaPOOCelular.classes
     public class Metodos
     {
 
+        public int Menu()
+        {               
+        int escolha = 0;
+        Console.WriteLine("O que você deseja fazer?");
+        Console.WriteLine("[1] - Fazer uma ligação [2] - Enviar uma mensagem");
+        Console.WriteLine("[3] - Ver as especificações do seu modelo [4] - Desligar o YourPhone");
+        escolha = int.Parse(Console.ReadLine());
+        return escolha;
+        }
+
+
         //Método para LIGAR
         public string Ligar()
         {
@@ -13,7 +24,7 @@ namespace AulaPOOCelular.classes
             Console.WriteLine("..........................");
             Console.WriteLine("..........................");
             Console.WriteLine("...Celular Iniciado!"); 
-            return this.Ligar();         
+            return "Ligado";         
         }
 
         //Método para DESLIGAR
@@ -23,7 +34,7 @@ namespace AulaPOOCelular.classes
             Console.WriteLine("..........................");
             Console.WriteLine("..........................");
             Console.WriteLine("...Celular desligado!");
-            return this.Desligar();           
+            return "Desligado";           
         }
 
         //Método para FAZER UMA LIGAÇÃO
@@ -39,13 +50,13 @@ namespace AulaPOOCelular.classes
                     Ligando();
                     break;
                 case 2:
-                Discando();
+                    Discando();
                     break;
                 default:
                     Console.WriteLine("Opção inválida!");
                     break;
             }
-            return this.FazerLigacao();
+            return escolha;
         }
 
                 //Método para SELECIONAR UM NÚMERO PARA LIGAR
@@ -58,6 +69,7 @@ namespace AulaPOOCelular.classes
                     Console.WriteLine("[3] - Cleytinho");
                     Console.WriteLine("[4] - Carlos Aubé");
                     Console.WriteLine("[5] - Jurandi");
+                    Console.WriteLine("[6] - Voltar para o menu anterior");
                     escolha = int.Parse(Console.ReadLine());
 
                     switch (escolha)
@@ -83,7 +95,7 @@ namespace AulaPOOCelular.classes
                             Console.WriteLine("..........................");
                             break;
                         case 5:
-                            Console.WriteLine("Ligando para o jurandi....");
+                            Console.WriteLine("Ligando para o Jurandi....");
                             Console.WriteLine("..........................");
                             Console.WriteLine("..........................");
                             break;
@@ -91,7 +103,7 @@ namespace AulaPOOCelular.classes
                             Console.WriteLine("Opção inválida!");
                             break;
                     }
-                    return this.Ligando();
+                    return escolha;
                 }
 
                 //Método para DIGITAR UM NÚMERO PARA LIGAR
@@ -100,9 +112,10 @@ namespace AulaPOOCelular.classes
                     int numero;
                     Console.WriteLine("Digite o número:");
                     numero = int.Parse(Console.ReadLine());
-                    Console.WriteLine($"Ligando para {numero}........");                            Console.WriteLine("..........................");
+                    Console.WriteLine($"Ligando para {numero}........");
                     Console.WriteLine("..........................");
-                    return this.Discando();
+                    Console.WriteLine("..........................");
+                    return numero;
                 }
 
                 //Método para SELECIONAR UM NÚMERO PARA ENVIAR MENSAGEM
@@ -148,7 +161,7 @@ namespace AulaPOOCelular.classes
                             Console.WriteLine("Opção inválida!");
                             break;
                     }
-                    return this.Enviando();
+                    return escolha;
                 }
 
                 //Método para DIGITAR UM NÚMERO PARA ENVIAR UMA MENSAGEM
@@ -159,7 +172,7 @@ namespace AulaPOOCelular.classes
                     numero = int.Parse(Console.ReadLine());
                     Console.WriteLine($"Envinado mensagem para {numero}........"); 
                     Console.WriteLine("..........................");
-                    return this.EnviandoNovoContato();
+                    return numero;
                 }
                 //Método para ENVIAR UMA MENSAGEM
                 public int EnviarMensagem()
@@ -176,7 +189,7 @@ namespace AulaPOOCelular.classes
                     {
                         EnviandoNovoContato();
                     }
-                    return this.EnviarMensagem();
+                    return escolha;
                 }
 
     }

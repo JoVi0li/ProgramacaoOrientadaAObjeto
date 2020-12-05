@@ -17,9 +17,10 @@ namespace AulaPOOCelular
             resposta = int.Parse(Console.ReadLine());
             if (resposta == 1)
             {
+                metodos.Ligar();
                 do
                 {
-                    metodos.Ligar();
+                    
                     int escolha = 0;
                     Console.WriteLine("O que você deseja fazer?");
                     Console.WriteLine("[1] - Fazer uma ligação [2] - Enviar uma mensagem");
