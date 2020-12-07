@@ -19,7 +19,7 @@ namespace POO_Heranca
             Console.WriteLine("Você é uma pessoa física ou jurídica?");
             Console.WriteLine("[1] - Pessoa Física  [2] - Pessoa Jurídica");
             p.escolha = int.Parse(Console.ReadLine());
-            
+
             switch (p.escolha)
             {
                 case 1:
@@ -33,6 +33,7 @@ namespace POO_Heranca
                     Console.WriteLine(pj.ValidarCNPJ(pj.cnpj));
                     break;
                 default:
+                    Console.WriteLine("Opção inválida!");
                     break;
             }
             
