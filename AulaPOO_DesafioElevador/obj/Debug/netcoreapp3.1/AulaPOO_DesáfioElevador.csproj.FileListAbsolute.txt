@@ -1,0 +1,13 @@
+C:\Users\dev\Desktop\Nova pasta\ProgramacaoOrientadaAObjeto\AulaPOO_DesáfioElevador\bin\Debug\netcoreapp3.1\AulaPOO_DesáfioElevador.exe
+C:\Users\dev\Desktop\Nova pasta\ProgramacaoOrientadaAObjeto\AulaPOO_DesáfioElevador\bin\Debug\netcoreapp3.1\AulaPOO_DesáfioElevador.deps.json
+C:\Users\dev\Desktop\Nova pasta\ProgramacaoOrientadaAObjeto\AulaPOO_DesáfioElevador\bin\Debug\netcoreapp3.1\AulaPOO_DesáfioElevador.runtimeconfig.json
+C:\Users\dev\Desktop\Nova pasta\ProgramacaoOrientadaAObjeto\AulaPOO_DesáfioElevador\bin\Debug\netcoreapp3.1\AulaPOO_DesáfioElevador.runtimeconfig.dev.json
+C:\Users\dev\Desktop\Nova pasta\ProgramacaoOrientadaAObjeto\AulaPOO_DesáfioElevador\bin\Debug\netcoreapp3.1\AulaPOO_DesáfioElevador.dll
+C:\Users\dev\Desktop\Nova pasta\ProgramacaoOrientadaAObjeto\AulaPOO_DesáfioElevador\bin\Debug\netcoreapp3.1\AulaPOO_DesáfioElevador.pdb
+C:\Users\dev\Desktop\Nova pasta\ProgramacaoOrientadaAObjeto\AulaPOO_DesáfioElevador\obj\Debug\netcoreapp3.1\AulaPOO_DesáfioElevador.csprojAssemblyReference.cache
+C:\Users\dev\Desktop\Nova pasta\ProgramacaoOrientadaAObjeto\AulaPOO_DesáfioElevador\obj\Debug\netcoreapp3.1\AulaPOO_DesáfioElevador.AssemblyInfoInputs.cache
+C:\Users\dev\Desktop\Nova pasta\ProgramacaoOrientadaAObjeto\AulaPOO_DesáfioElevador\obj\Debug\netcoreapp3.1\AulaPOO_DesáfioElevador.AssemblyInfo.cs
+C:\Users\dev\Desktop\Nova pasta\ProgramacaoOrientadaAObjeto\AulaPOO_DesáfioElevador\obj\Debug\netcoreapp3.1\AulaPOO_DesáfioElevador.csproj.CoreCompileInputs.cache
+C:\Users\dev\Desktop\Nova pasta\ProgramacaoOrientadaAObjeto\AulaPOO_DesáfioElevador\obj\Debug\netcoreapp3.1\AulaPOO_DesáfioElevador.dll
+C:\Users\dev\Desktop\Nova pasta\ProgramacaoOrientadaAObjeto\AulaPOO_DesáfioElevador\obj\Debug\netcoreapp3.1\AulaPOO_DesáfioElevador.pdb
+C:\Users\dev\Desktop\Nova pasta\ProgramacaoOrientadaAObjeto\AulaPOO_DesáfioElevador\obj\Debug\netcoreapp3.1\AulaPOO_DesáfioElevador.genruntimeconfig.cache

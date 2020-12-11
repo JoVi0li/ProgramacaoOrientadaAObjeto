@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AulaPOO_DesáfioElevador/1.0.0": {
+        "runtime": {
+          "AulaPOO_DesáfioElevador.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AulaPOO_DesáfioElevador/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
