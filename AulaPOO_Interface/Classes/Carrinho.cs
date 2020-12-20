@@ -16,12 +16,12 @@ namespace AulaPOO_Interface.Classes
 
         public void Cadastrar(Produto produto)
         {
-            throw new System.NotImplementedException();
+            carrinho.Add(produto);
         }
 
         public void Deletar(Produto produto)
         {
-            throw new System.NotImplementedException();
+            carrinho.Add(produto);
         }
 
         public void Listar()
