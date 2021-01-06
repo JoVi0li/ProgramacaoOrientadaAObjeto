@@ -29,9 +29,9 @@ namespace AulaMVC_Console.Models
             {
                 File.Create(PATH);
             }
+            
+        }  
 
-
-        }   
         public List<Produto> Ler()
         {
             List<Produto> produtos = new List<Produto>();
@@ -55,6 +55,21 @@ namespace AulaMVC_Console.Models
 
 
             return produtos;
+        }
+
+        public void Inserir(Produto p)
+        {
+            //Criação de um array de String parao método AppendAllLines
+            string[] linhas = {PrepararLinhaCSV(p)};
+
+            //Inserindo o array de linhas no arquivo CSV
+            File.AppendAllLines(PATH, linhas);
+        }
+
+        public string PrepararLinhaCSV(Produto prod)
+        {
+            //Formatando a linha para o formato CSV
+            return $"{prod.Codigo};{prod.Nome};{prod.Preco}";
         }
     }
 }

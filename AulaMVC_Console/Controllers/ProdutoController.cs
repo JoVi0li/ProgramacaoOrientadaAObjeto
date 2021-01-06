@@ -15,5 +15,11 @@ namespace AulaMVC_Console.Controllers
             List<Produto> todos = produto.Ler();
             produtoView.ListarTodos(todos);
         }
+
+        public void Cadastrar()
+        {
+            //O Model está inserindo as informações capturadas na View
+            produto.Inserir(produtoView.CadastrarProduto());
+        }
     }
 }
